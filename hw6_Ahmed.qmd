@@ -182,11 +182,11 @@ Find the **top 10 routes** (`dest`) by:
 
 ordered by **number of flights**.
 
-```{r}
+*See here the top 10 routes, sorted from most to least total flights.*
 
-```
+![](images/clipboard-181261075.png)
 
-#### **e.**
+**e.**
 
 Export the result of part b query to a **CSV file** using the **Export Data** feature in DBeaver.
 
