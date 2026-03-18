@@ -136,7 +136,7 @@ dbDisconnect(conn)
 
 #### **a. List the first 10 rows of the `flights` table:**
 
-The first 10 rows of the flights table are seen in the below screenshots. I had to take two in order to display all of the columns.
+*The first 10 rows of the flights table are seen in the below screenshots. I had to take two in order to display all of the columns.*
 
 ![](images/clipboard-1929981447.png)
 
@@ -154,9 +154,9 @@ Find the **number of flights** for each carrier.
 
     -   number of flights Sort from the **largest to smallest**.
 
-```{r}
+*The total of flights per carrier can be seen below, sorted from largest to smallest:*
 
-```
+![](images/clipboard-344444069.png)
 
 #### **c.**
 
