@@ -53,7 +53,7 @@ dbGetQuery(conn, "
   FROM flights
 ")
 
-# the total number of flights in the dataset is 336,776
+# the total number of flights in the dataset is 336,776.
 ```
 
 ```{r}
@@ -92,7 +92,15 @@ Find the **top 5 destinations** (`dest`) With the most flights.
     -   number of flights Sort from the **largest to smallest**.
 
 ```{r}
+dbGetQuery(conn, "
+           SELECT dest, COUNT(*) AS num_flights
+           FROM flights
+           GROUP BY dest
+           ORDER BY num_flights DESC
+           LIMIT 5
+           ")
 
+# the top 5 destinations with their corresponding number of flights can be seen below, sorted from largest to smallest:
 ```
 
 #### **e.**
