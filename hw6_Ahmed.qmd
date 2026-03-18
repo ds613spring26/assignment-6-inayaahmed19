@@ -182,7 +182,7 @@ Find the **top 10 routes** (`dest`) by:
 
 ordered by **number of flights**.
 
-*See here the top 10 routes, sorted from most to least total flights.*
+*See here the top 10 routes, sorted from most to least total flights:*
 
 ![](images/clipboard-181261075.png)
 
@@ -192,13 +192,11 @@ Export the result of part b query to a **CSV file** using the **Export Data** fe
 
 Submit the exported CSV file along with your homework.
 
--   **Exporting Data to CSV in DBeaver**
+*The .csv file titled "hw6_Ahmed_part 2b data.csv" displays my output for this question.*
 
-```{r}
+**Exporting Data to CSV in DBeaver**
 
-```
-
-**Quick Steps:**
+-   **Quick Steps:**
 
 1.  **Right-click** Table or Result Grid -\> **Export Data**.
 
@@ -226,9 +224,9 @@ Submit the exported CSV file along with your homework.
 
 > This is the easiest way to manage connections without closing DBeaver or losing work.
 
-```{r}
+*See below proof of disconnection from database:*
 
-```
+![](images/clipboard-3324008482.png)
 
 ## **Submission**
 
