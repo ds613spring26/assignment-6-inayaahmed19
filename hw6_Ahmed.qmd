@@ -114,13 +114,20 @@ Create a table showing:
 Sort the results from **largest to smallest delay**
 
 ```{r}
+dbGetQuery(conn, "
+  SELECT carrier, AVG(arr_delay) AS avg_arr_delay
+  FROM flights
+  GROUP BY carrier
+  ORDER BY avg_arr_delay DESC
+")
 
+# please see the below table illustrating average departure delay by carrier, sorted from largest to smallest:
 ```
 
 > You must close the connection when you are done. Use `dbDisconnect()`
 
 ```{r}
-
+dbDisconnect(conn)
 ```
 
 ### **Part II: Answer the following question by running SQL using DBeaver with DuckDB.**
