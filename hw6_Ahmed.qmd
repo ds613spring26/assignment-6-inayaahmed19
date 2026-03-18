@@ -1,0 +1,32 @@
+---
+title: "Assignment 6"
+author: "Inaya Ahmed"
+format: html
+editor: visual
+---
+
+## DATA-613 Assignment 6
+
+Part 1:
+
+```{r}
+
+```
+
+a
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
