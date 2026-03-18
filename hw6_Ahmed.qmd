@@ -73,11 +73,12 @@ dbGetQuery(conn, "
 Find the **average departure delay** (`dep_delay`)
 
 ```{r}
+dbGetQuery(conn, "
+           SELECT AVG(dep_delay) AS avg_dep_delay
+           FROM flights
+           ")
 
-```
-
-```{r}
-
+# The average departure delay is 12.64 minutes (rounded to the nearest hundredth).
 ```
 
 #### **d.**
