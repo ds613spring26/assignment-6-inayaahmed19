@@ -134,17 +134,13 @@ dbDisconnect(conn)
 
 > Please go over the note **dbeaver_sql.html** to learn
 
-#### **a.**
+#### **a. List the first 10 rows of the `flights` table:**
 
-List the first **10 rows** of the `flights` table.
+The first 10 rows of the flights table are seen in the below screenshots. I had to take two in order to display all of the columns.
 
-```         
-dbGetQuery(conn, "YOUR SQL HERE")
-```
+![](images/clipboard-1929981447.png)
 
-```{r}
-
-```
+![](images/clipboard-130832666.png)
 
 #### **b.**
 
