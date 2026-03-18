@@ -168,9 +168,9 @@ Find the **average departure delayby month**
 
     -   average departure delay
 
-```{r}
+*Here you can see the average departure delay by month, sorted chronologically from 1-12:*
 
-```
+![](images/clipboard-1793852608.png)
 
 #### **d.**
 
